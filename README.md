@@ -30,3 +30,10 @@ If you are interested in using just an Imgur download command line interface, th
 3. In version 1.2 I will allow users to pass in a specific download location on the command line, for now this must be hard coded into the core package file
 4. I will be producing a version compatible for Windows users
 5. I will be adding in gfycat functionality in the near future so users can download gyfcat videos from subreddits too 
+
+## COPYRIGHTS & USE NOTICE
+I, the owner of this GitHub account and creater of the subreddit_imgur_picture_downloader, retain all copyrights.
+Copyright (C) Simon Augustus - All Rights Reserved
+Unauthorized copying of this file, via any medium is strictly prohibited & required express permission from the author
+Proprietary and confidential
+Written by Simon Augustus <augustus.writer@gmail.com>, July 2017
