@@ -1,3 +1,8 @@
+# Copyright (C) Simon Augustus - All Rights Reserved
+ # Unauthorized copying of this file, via any medium is strictly prohibited
+ # Proprietary and confidential
+ # Written by Simon Augustus <augustus.writer@gmail.com>, July 2017
+ 
 from bs4 import BeautifulSoup
 import praw
 from urllib2 import urlopen
