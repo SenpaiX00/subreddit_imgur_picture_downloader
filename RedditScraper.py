@@ -46,7 +46,7 @@ def get_category_links(subredditName, r):
 		call2 = info['submitted_url']
 		call3 = " " 
 		call4 = "-o "
-		call5 = "'/Volumes/SMALL/DOWNLOADS'"
+		call5 = "'DIRECTORY GOES HERE'" #Should reald like /Volumes/ExternalHDD/
 	#parse imgur ids to catch direct links 
 		if "http://i.imgur.com" in submission.url:
 			this_url = submission.url[19:]
