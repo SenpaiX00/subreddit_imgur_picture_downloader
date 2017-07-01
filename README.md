@@ -7,7 +7,7 @@ Package that takes a subreddit name as an argument and takes all the hot posts, 
 
 ## SET UP & INITIAL CONSIDERATIONS BEFORE RUNNING 
 1. This is written for Python 2, not 3. I have not checked it in Python 3, but given backwards compatibility issues between 2 and 3, I doubt it will work in 3. I plan to test it and update the code for Python 3 in the near future.
-2. you will need to to a `pip install praw` - currently there are some imported packages that are not required. But praw is a must, also urllib2 if you don't already have it.
+2. you will need to to a `pip install praw` - currently there are some imported packages that are not required. But praw is a must, also urllib2 if you don't already have it. Remember, on OSX and Unix based systems, you may need to `sudo pip install praw`
 3. You will need to go to line 49 of the RedditScraper.py file and change the variable `call5` to reflect your desired download location. In the next version this will not be required.
 4. You will also need to set up a config file with your Reddit API access credentials. A good tutorial for this is here: https://www.youtube.com/watch?v=krTUf7BpTc0 and I have included an example config where you can fill in the blanks.
 
