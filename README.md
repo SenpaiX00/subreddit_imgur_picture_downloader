@@ -1,5 +1,9 @@
-# subreddit_imgur_picture_downloaderV1.0
+# subreddit_imgur_picture_downloaderV1.1
 Package that takes a subreddit name as an argument and takes all the hot posts, finds imgur links, and downloads them to a specified folder
+
+************IN THE NEW VERSION*************
+1. Welcome print out
+2. Now supports gfycat gif and webm downloads
 
 ## SET UP & INITIAL CONSIDERATIONS BEFORE RUNNING 
 1. This is written for Python 2, not 3. I have not checked it in Python 3, but given backwards compatibility issues between 2 and 3, I doubt it will work in 3. I plan to test it and update the code for Python 3 in the near future.
