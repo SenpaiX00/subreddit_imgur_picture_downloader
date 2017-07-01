@@ -4,6 +4,7 @@
 # Includes calls to gyfcatdl.py - DONE
 #Copyright Simon Augustus - augustus.writer@gmail.com
 
+
 from bs4 import BeautifulSoup
 import praw
 from urllib2 import urlopen
@@ -59,26 +60,24 @@ def get_category_links(subredditName, r):
             this_url = submission.url[19:]
             imgur_id = this_url[:-4]
             info['imgur'] = imgur_id
-            print(info['submitted_url'])
-            print("downloading now")                #The following lines of code need to be uodated to allow for full string generation
+            print("Downloading", info['submitted_url'])
             link = info['submitted_url'].split('/')
             print(link)
             identitiy = link[3].split('.')
             id = identitiy[0]
-            print(id, "xxxxxxxxxxxxxxxxxxxxxx------------------")
+            print(id, " is the ID")
             exitcode = subprocess.call(call1 + id + call3 + call4 + call5, shell=True)
             count+= 1
         if "http://imgur.com/" in submission.url:
             if "/a/" in submission.url:             #Something around calling gallaries 
                 imgur_id = submission.url[19:]
                 info['imgur'] = imgur_id
-                print(info['submitted_url'])
-                print("downloading now")
+                print("Downloading", info['submitted_url'])
                 link = info['submitted_url'].split('/')
                 print(link)
                 identitiy = link[4].split('.')
                 id = identitiy[0]
-                print(id, "xxxxxxxxxxxxxxxxxxxxxx------------------")
+                print(id, " is the ID")
                 exitcode = subprocess.call(call11 + id + call3 + call4 + call5, shell=True)
                 count+= 1
             elif "/a/" in submission.url:
@@ -88,36 +87,34 @@ def get_category_links(subredditName, r):
                 print(link)
                 identitiy = link[4].split('.')
                 id = identitiy[0]
-                print(id, "xxxxxxxxxxxxxxxxxxxxxx------------------")
+                print(id, " is the ID")
                 exitcode = subprocess.call(call11 + id + call3 + call4 + call5, shell=True)
                 count+= 1
             elif "http://i.imgur.com/gifv" in submission.url:
                 this_url = submission.url[19:]
                 imgur_id = this_url[:-4]
                 info['imgur'] = imgur_id
-                print(info['submitted_url'])
-                print("downloading now")
+                print("Downloading", info['submitted_url'])
                 link = info['submitted_url'].split('/')
                 print(link)
                 identitiy = link[3].split('.')
                 id = identitiy[0]
-                print(id, "xxxxxxxxxxxxxxxxxxxxxx------------------")
+                print(id, " is the ID")
                 exitcode = subprocess.call(call1 + id + call3 + call4 + call5, shell=True)
                 print(identitiy, "--------------------------------------------------------------")
             else:
                 imgur_id = submission.url[17:]
                 info['imgur'] = imgur_id
-                print(info['submitted_url'])
-                print("downloading now")
+                print("Downloading", info['submitted_url'])
                 link = info['submitted_url'].split('/')
                 print(link)
                 identitiy = link[3].split('.')
                 id = identitiy[0]
-                print(id, "xxxxxxxxxxxxxxxxxxxxxx------------------")
+                print(id, " is the ID")
                 exitcode = subprocess.call(call1 + id + call3 + call4 + call5, shell=True)
                 count+= 1
         if "https://gfycat.com/" in submission.url: 
-                print(info['submitted_url'])      
+                print("Downloading ", info['submitted_url'])      
                 downloadMe = gfycat().upload(info['submitted_url'])
                 downloadMe.download("/Volumes/portable/")
     print("Found", count, "links")
