@@ -25,7 +25,8 @@ for example:
   
 ## ACKNOWLEDGEMENTS
 
-About half the code for this came from leonardicus' imgurdl. His command line python code for straight imgur downloads was highly significant to the creation of this code. I have added additional functionality to it.
+Some of the code for this came from leonardicus' imgurdl. His command line python code for straight imgur downloads was highly significant to the creation of this code abd influenced the building of my program. I have added additional functionality to it. Now included is support for gifs and webms from Gfycat.
+
 If you are interested in using just an Imgur download command line interface, then please see leonardicus' Imgurdl script here: https://github.com/leonardicus/imgurdl/blob/master/readme.md
 
 ## FUTURE ADDITIONS
