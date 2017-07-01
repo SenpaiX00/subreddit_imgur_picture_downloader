@@ -37,7 +37,7 @@ If you are interested in using just an Imgur download command line interface, th
 
 ## COPYRIGHTS & USE NOTICE
 I, the owner of this GitHub account and creater of the subreddit_imgur_picture_downloader, retain all copyrights.
-Copyright (C) Simon Augustus - All Rights Reserved
+Copyright (C) Simon Augustus - All Rights Reserved.
 This program is free to use, but must not be sold. Use of thise code for any commercial purposes is strictly forbidden.
-The use of this code in other open source projects must be cleared with the author augustus.writer@gmail.com
+The use of this code in other open source projects must be cleared with the author.
 Written by Simon Augustus <augustus.writer@gmail.com>, July 2017
