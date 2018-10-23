@@ -116,7 +116,7 @@ def get_category_links(subredditName, r):
         if "https://gfycat.com/" in submission.url: 
                 print("Downloading ", info['submitted_url'])      
                 downloadMe = gfycat().upload(info['submitted_url'])
-                downloadMe.download("/Volumes/portable/")
+                downloadMe.download("ENTER_HERE")
     print("Found", count, "links")
 
 def gfycatdl(subredditName, r):
@@ -136,7 +136,7 @@ def gfycatdl(subredditName, r):
         if "https://gfycat.com/" in submission.url: 
             print(info['submitted_url'])      
             downloadMe = gfycat().upload(info['submitted_url'])
-            downloadMe.download("/Volumes/portable/")        
+            downloadMe.download("ENTER_HERE")        
 
                 
     
